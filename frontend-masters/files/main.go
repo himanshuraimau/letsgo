@@ -1,5 +1,6 @@
 package main
 
+import "fmt"/*
 import (
 	"fmt"
 	"os"
@@ -8,7 +9,7 @@ import (
 )
 
 func main(){
-
+ 
 	rootPath,_:=os.Getwd()
 	filepath := rootPath + "/data/text.txt"
     content,error := fileutils.ReadTextFile(filepath)
@@ -19,5 +20,11 @@ func main(){
 			}else{
 		fmt.Println(error)
 	}
+
+}
+	*/
+func main(){
+	fmt.Println("Hello World")
+
 
 }
