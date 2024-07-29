@@ -6,3 +6,11 @@ type Instructor struct{
 	Department string
 
 }
+
+func NewInstructor(id int, name, department string) Instructor{
+	return Instructor{
+		Id: id,
+		Name: name,
+		Department: department,
+	}
+}
